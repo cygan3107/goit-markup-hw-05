@@ -555,3 +555,11 @@ li {
     text-decoration-skip-ink: none;
     color: #4d5ae5;
 }
+.privacy-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
