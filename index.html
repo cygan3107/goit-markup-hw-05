@@ -698,6 +698,9 @@
         </footer>
         <div class="backdropp is-hidden" data-modal>
             <div class="modal">
+                <p class="model-text">
+                    Leave your contacts and we will call you back
+                </p>
                 <form class="form" name="issue_report_form" autocomplete="off">
                     <label class="form-label">
                         Name
@@ -735,10 +738,15 @@
                             class="form-input"
                             name="description"
                             rows="5"
-                            placeholder="Enter your message here..."
+                            placeholder="Text input"
                         ></textarea>
                     </label>
 
+                    <label
+                        ><input type="checkbox" name="hobby" value="reading" />
+                        I accept the terms and conditions of the
+                        <span class="privacy"> Privacy Policy</span>
+                    </label>
                     <button class="form-button" type="submit">Send</button>
                 </form>
                 <button type="button" class="close-btn" data-modal-close>
