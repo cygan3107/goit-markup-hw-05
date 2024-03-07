@@ -449,6 +449,58 @@ li {
 .social-media-icon {
     fill: #f4f4fd;
 }
+.subscribe {
+    margin-left: 80px;
+}
+.subscribe-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.input-dark {
+    background-color: #2e2f42;
+    padding-left: 16px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    align-items: baseline;
+    outline: none;
+}
+.subscribe-btn {
+    position: relative;
+}
+.subscribe-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: white;
+    background-color: #4d5ae5;
+    margin-left: 24px;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: absolute;
+    top: 40px;
+}
+.icon-send {
+    fill: white;
+}
 .backdrop {
     position: fixed;
     left: 0;
@@ -466,6 +518,7 @@ li {
     min-height: 584px;
     background-color: #fcfcfc;
     border-radius: 4px;
+    padding: 72px 24px 24px 24px;
 }
 .close-btn {
     position: absolute;
@@ -478,7 +531,7 @@ li {
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
-.model-text {
+.modal-text {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
