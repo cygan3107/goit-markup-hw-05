@@ -605,6 +605,7 @@ li {
 }
 .form-input:focus-within {
     border-color: #4d5ae5;
+    fill: #4d5ae5;
 }
 .form-icon {
     position: absolute;
