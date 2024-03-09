@@ -636,6 +636,11 @@ li {
 }
 .form-comment:focus-within {
     border-color: #4d5ae5;
+    fill: #f4f4fd;
+    border: none;
+}
+.checkbox-text:checked + .privacy-text {
+    background-color: #404bbf;
 }
 .checkbox-text {
     margin-bottom: 24px;
@@ -658,6 +663,7 @@ li {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 .privacy-policy {
     color: #4d5ae5;
