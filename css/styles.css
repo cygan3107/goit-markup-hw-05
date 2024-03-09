@@ -636,11 +636,11 @@ li {
 }
 .form-comment:focus-within {
     border-color: #4d5ae5;
-    fill: #f4f4fd;
-    border: none;
 }
 .checkbox-text:checked + .privacy-text {
     background-color: #404bbf;
+    fill: #f4f4fd;
+    border: none;
 }
 .checkbox-text {
     margin-bottom: 24px;
