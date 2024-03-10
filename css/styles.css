@@ -3,7 +3,7 @@
 *::after {
     box-sizing: border-box;
 }
-.hidden {
+.visually-hidden {
     visibility: hidden;
     position: absolute;
     width: 1px;
@@ -558,7 +558,7 @@ li {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-icon-close:hover,
-.modal-icon-close:focus-within {
+.modal-icon-close:focus {
     fill: #ffffff;
 }
 .modal-text {
@@ -569,7 +569,6 @@ li {
     text-align: center;
     color: #2e2f42;
     margin-bottom: 16px;
-    padding-top: 72px;
 }
 .form-div {
     margin-bottom: 8px;
@@ -614,10 +613,10 @@ li {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-input:focus-within .form-icon {
+
+.input-name input:focus + .form-icon {
     fill: #4d5ae5;
 }
-
 .comment {
     margin-bottom: 16px;
 }
@@ -639,7 +638,7 @@ li {
 .form-comment:focus-within {
     border-color: #4d5ae5;
 }
-.checkbox-text:checked + .privacy-text {
+.checkbox-privacy:checked + .privacy-text span {
     background-color: #404bbf;
     fill: #f4f4fd;
     border: none;
